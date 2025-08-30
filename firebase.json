@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "site": "controlapp-usuj2",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "apphosting": {
+          "backendId": "studio",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}
